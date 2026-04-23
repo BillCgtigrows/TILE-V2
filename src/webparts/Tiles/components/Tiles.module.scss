@@ -12,17 +12,37 @@ $ms-themeSecondary:             "[theme:themeSecondary, default:#2488d8]";
     color: $ms-color-alert;
   }
 
+  /* Center the grid of tiles */
   .tilesList {
     @include ms-Grid-row;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;   // center tiles horizontally
+    gap: 20px;                 // optional spacing between tiles
   }
 
-  .tileBG{
+  /* Tile background color */
+  .tileBG {
     color: $ms-themePrimary;
   }
 
-  .tileFont{
+  /* Tile font color */
+  .tileFont {
     color: $ms-themeSecondary;
   }
+
+  /* NEW: Tile styling */
+  .tile {
+    border-radius: 12px;       // rounded corners
+    overflow: hidden;          // ensures children follow the rounded shape
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   // center content vertically
+    align-items: center;       // center content horizontally
+    text-align: center;
+    padding: 20px;             // optional spacing inside tile
+    background: white;         // optional: makes rounded corners visible
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15); // optional: nicer look
+  }
 }
+
