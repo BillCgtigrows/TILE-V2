@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "Tiles V2 Webpart - Modern",
+    "name": "Tiles GTI",
     "id": "d56958d6-9eaf-4500-934b-b421c22a7d1f",
     "version": "1.1.0.0",
     "skipFeatureDeployment": true,
