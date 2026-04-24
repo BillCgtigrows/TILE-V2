@@ -2,13 +2,13 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
     "name": "Tiles GTI",
-    "id": "fc42f81b-6556-46a1-ae6c-0d3c7cd35ae2",
-    "version": "1.1.0.0",
+    "id": "f2b7d8c1-3e4a-4c9f-8b2d-6a1f9e7c4d33",
+    "version": "1.1.0.1",
     "skipFeatureDeployment": true,
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
     "developer": {
-      "name": "Omar El-Anis",
+      "name": "Bill Christopher",
       "websiteUrl": "",
       "privacyUrl": "",
       "termsOfUseUrl": "",
@@ -16,6 +16,6 @@
     }
   },
   "paths": {
-    "zippedPackage": "solution/Tiles_V2_Modern.sppkg"
+    "zippedPackage": "solution/Tiles_GTI_Modern.sppkg"
   }
 }
