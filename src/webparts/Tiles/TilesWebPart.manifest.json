@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "26cb4af3-7f48-4737-b82a-4e24167c2d07",
+  "id": "1f6c1c8e-4e4a-4c8b-9f7a-2b8e3c6d9f12",
   "alias": "GTI-Tiles",
   "componentType": "WebPart",
   "version": "*",
