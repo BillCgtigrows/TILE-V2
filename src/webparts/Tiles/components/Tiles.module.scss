@@ -18,31 +18,31 @@ $ms-themeSecondary:             "[theme:themeSecondary, default:#2488d8]";
     display: flex;
     flex-wrap: wrap;
     justify-content: center;   // center tiles horizontally
-    gap: 20px;                 // optional spacing between tiles
   }
 
   /* Tile background color */
   .tileBG {
-    color: $ms-themePrimary;
+    color: #09562c; // GTI Custom
   }
 
   /* Tile font color */
   .tileFont {
-    color: $ms-themeSecondary;
+    color: #bfcc80; //GTI Custom
   }
 
   /* NEW: Tile styling */
-  .tile {
-    border-radius: 12px;       // rounded corners
-    overflow: hidden;          // ensures children follow the rounded shape
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   // center content vertically
-    align-items: center;       // center content horizontally
-    text-align: center;
-    padding: 20px;             // optional spacing inside tile
-    background: white;         // optional: makes rounded corners visible
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15); // optional: nicer look
-  }
+
+.tile {
+  border-radius: 12px; //rounded corners for GTI customization
+  overflow: hidden;   //support for inner divs
+  display: flex;
+  flex-direction: column;
+  justify-content: center; //center all the tiles
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
 }
 
