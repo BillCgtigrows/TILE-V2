@@ -14,7 +14,7 @@
       "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
       "group": { "default": "Other" },
       "title": { "default": "GTI Tiles" },
-      "description": { "default": "Tiles V2 Webpart for Modern sites" },
+      "description": { "default": "Tiles GTI Webpart for Modern sites" },
       "officeFabricIconFontName": "Tiles",
       "properties": {
         "title": "GTI Tiles"
