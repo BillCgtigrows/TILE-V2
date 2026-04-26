@@ -2,10 +2,10 @@
 
 .tile {
   @include ms-Grid-col;
-  // @include ms-sm6;
-  // @include ms-md3;
   margin-bottom: 16px;
   display: flex;
+  border-radius: 12px;        // GTI rounded corners
+  overflow: hidden;           // ensures inner elements respect rounding
 
   a {
     background-color: $ms-color-themePrimary;
@@ -18,8 +18,11 @@
     position: relative;
     text-decoration: none;
     width: 100%;
+    border-radius: inherit; //fix for rounded corners GTI
+    height: 100%;
 
-    &:hover, &:visited {
+    &:hover,
+    &:visited {
       color: $ms-color-white;
       text-decoration: none;
     }
